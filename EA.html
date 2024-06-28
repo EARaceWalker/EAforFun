@@ -1,29 +1,38 @@
 
 <html>
+
 <style type="text/css">
+
+body, html {
+  margin: 0;
+  height: 100%;
+}
+
 #ImSticky {
   position: fixed;
   top: 10%;
   right: 50%;
 }
-body {
-  height: 100vh;
-  width: 100vh;
-  margin: 0;
+
+#my-div {
+  background-color: rgba(255,255,255,0.85);
 }
 
-.logo {
-  position: fixed;
-  top: 10%;
-  right: 50%;
+body {
+  background: url('EA1.png')  no-repeat center center fixed ;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 
 
 </style>
 
 <h1 style="font-family:Arial, Helvetica, sans-serif; font-size:28px">Hype Cycle for Enterprise Architecture</h1>
-<body><img  class="logo" id="ImSticky1" src = 'EA.png' sstyle="position:absolute; top:20px; right:30px;"> </body>
 
+<div id  = "my-div">
 <svg width="1200" height="680" xmlns="http://www.w3.org/2000/svg">
   <style>
     .axisname {
@@ -491,6 +500,7 @@ body {
 
 
 </svg>
+</div>
 
 </body>
 </html> 
